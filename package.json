@@ -4,7 +4,8 @@
   "description": "cryptocurrency trading simulator with a discord bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon .",
+    "start": "node ."
   },
   "keywords": [
     "crypto",
@@ -19,5 +20,8 @@
     "axios": "^0.21.1",
     "discord.js": "^12.5.3",
     "fs": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }

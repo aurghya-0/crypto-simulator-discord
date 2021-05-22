@@ -6,7 +6,6 @@ module.exports = {
             style: "currency",
             currency: "INR"
         });
-        let n = Intl.NumberFormat('en-IN', { style: 'decimal' })
         message.reply(`Your bank account has ${c.format(profileData.bank)}`);
     }
 }

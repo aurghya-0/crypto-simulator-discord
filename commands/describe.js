@@ -14,7 +14,7 @@ module.exports = {
             style: "currency",
             currency: "INR"
         });
-        let n = Intl.NumberFormat('en-IN', { style: 'decimal' })
+        let n = Intl.NumberFormat('en-IN', { style: 'decimal' });
 
         console.log(details);
 
